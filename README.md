@@ -1,10 +1,10 @@
-# 🤖 OpenVerb Town
-### *The Reference Implementation for the OpenVerb Framework*
+# 🤖 OpenVerb Robot Actions
+### *The Reference Implementation for the OpenVerb Protocol*
 
-[![OpenSource](https://img.shields.io/badge/Open%20Source-Heart-red.svg)](https://github.com/openverb/openverb-town)
+[![OpenSource](https://img.shields.io/badge/Open%20Source-Heart-red.svg)](https://github.com/sgthancel/OpenVerb-Robot-Actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**OpenVerb Town** is a high-fidelity robot simulation sandbox designed to demonstrate the power of the **OpenVerb Protocol**. It provides a declarative, deterministic environment where AI agents (Pilots) can interact with a structured world using a standardized set of verbs.
+**OpenVerb Robot Actions** is a high-fidelity robot simulation sandbox designed to demonstrate the power of the **OpenVerb Protocol**. It provides a declarative, deterministic environment where AI agents (Pilots) can interact with a structured world using a standardized set of verbs.
 
 ---
 
