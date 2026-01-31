@@ -1,4 +1,4 @@
-// OpenVerb Town - World State Store
+// OpenVerb Robot Actions - World State Store
 // In-memory store for the world state (server-side)
 
 import type { WorldState } from "@/src/world/model";

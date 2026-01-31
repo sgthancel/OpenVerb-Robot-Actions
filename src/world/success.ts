@@ -1,4 +1,4 @@
-// OpenVerb Town - Success Criteria Evaluator
+// OpenVerb Robot Actions - Success Criteria Evaluator
 import type { WorldState } from "./model";
 import type { SuccessCriteria } from "./tasks";
 

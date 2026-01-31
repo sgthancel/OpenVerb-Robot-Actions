@@ -1,4 +1,4 @@
-// OpenVerb Town - Initial World State Generator
+// OpenVerb Robot Actions - Initial World State Generator
 // Updated to match realistic floor plan layout
 import type { WorldState, Entity, RoomId, RoomBounds } from "./model";
 

@@ -1,4 +1,4 @@
-// OpenVerb Town - AI Pilot using Vercel AI SDK
+// OpenVerb Robot Actions - AI Pilot using Vercel AI SDK
 import { generateObject } from "ai";
 import { openai } from "@ai-sdk/openai";
 import { z } from "zod";
@@ -26,7 +26,7 @@ export function createAIPilot(model: string = "openai/gpt-4o-mini"): Pilot {
     name: `AI Pilot (${model})`,
 
     async plan(input: PilotInput): Promise<PilotOutput> {
-      const systemPrompt = `You are an autonomous robot pilot in OpenVerb Town. Your job is to complete tasks by choosing the right verbs.
+      const systemPrompt = `You are an autonomous robot pilot in OpenVerb Robot Actions. Your job is to complete tasks by choosing the right verbs.
 
 RULES:
 - Always use world.observe or world.scan when uncertain about surroundings

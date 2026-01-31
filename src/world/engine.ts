@@ -1,4 +1,4 @@
-// OpenVerb Town - World Engine
+// OpenVerb Robot Actions - World Engine
 // Pure functions for applying verbs to world state
 
 import type {

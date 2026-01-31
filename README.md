@@ -47,7 +47,7 @@ graph TD
 
 ## ⚡ The Verb Protocol
 
-Verbs are the "DNA" of the robot's capabilities. Every verb in OpenVerb Town is formally registered and follows a strict execution flow:
+Verbs are the "DNA" of the robot's capabilities. Every verb in OpenVerb Robot Actions is formally registered and follows a strict execution flow:
 
 | Verb | Category | Description |
 | :--- | :--- | :--- |
@@ -62,7 +62,7 @@ Verbs are the "DNA" of the robot's capabilities. Every verb in OpenVerb Town is 
 
 ## 🧠 AI Piloting
 
-OpenVerb Town supports two primary piloting modes:
+OpenVerb Robot Actions supports two primary piloting modes:
 
 1.  **AI Pilot (GPT-4/o-mini)**: Uses advanced reasoning to decompose natural language goals (e.g., "Clean the kitchen") into sequences of verbs.
 2.  **Heuristic Pilot**: A rule-based baseline that demonstrates autonomous reasoning for standard household tasks (Trash, Packages, Night Routines).

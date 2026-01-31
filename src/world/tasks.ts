@@ -1,4 +1,4 @@
-// OpenVerb Town - Demo Tasks
+// OpenVerb Robot Actions - Demo Tasks
 // Goal-based tasks with success criteria
 
 export type SuccessCriteria =

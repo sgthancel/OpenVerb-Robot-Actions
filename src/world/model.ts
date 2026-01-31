@@ -1,4 +1,4 @@
-// OpenVerb Town - World State Model
+// OpenVerb Robot Actions - World State Model
 // A deterministic grid world with entity states and robot inventory
 
 export type Vec2 = { x: number; y: number };

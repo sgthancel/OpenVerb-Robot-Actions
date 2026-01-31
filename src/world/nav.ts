@@ -1,4 +1,4 @@
-// OpenVerb Town - Navigation / A* Pathfinding
+// OpenVerb Robot Actions - Navigation / A* Pathfinding
 import type { Vec2, WorldState, RoomId } from "./model";
 
 interface PathNode {

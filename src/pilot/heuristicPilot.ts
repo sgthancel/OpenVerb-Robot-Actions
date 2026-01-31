@@ -1,4 +1,4 @@
-// OpenVerb Town - Heuristic Pilot
+// OpenVerb Robot Actions - Heuristic Pilot
 // Rule-based baseline pilot (not fake; actually thinks)
 
 import type { Pilot, PilotInput, PilotOutput } from "./contract";

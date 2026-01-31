@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'OpenVerb Town - Robot Simulation Sandbox',
+  title: 'OpenVerb Robot Actions - Robot Simulation Sandbox',
   description: 'A top-down robot simulator demonstrating OpenVerb verbs, policies, and execution. Watch an AI or heuristic pilot complete tasks in a simulated house environment.',
   generator: 'v0.app',
   icons: {

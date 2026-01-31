@@ -1,4 +1,4 @@
-// OpenVerb Town - Observation Builder
+// OpenVerb Robot Actions - Observation Builder
 // Builds what the pilot is allowed to "see"
 
 import type { WorldState, Observation, ObservationEntity } from "./model";

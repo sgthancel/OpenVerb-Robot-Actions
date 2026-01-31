@@ -1,4 +1,4 @@
-// OpenVerb Town - Pilot Contract
+// OpenVerb Robot Actions - Pilot Contract
 // Interfaces for AI pilots (OpenAI, local heuristic, etc.)
 
 import type { Observation, VerbName } from "@/src/world/model";

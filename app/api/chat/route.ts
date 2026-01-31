@@ -1,4 +1,4 @@
-// Chat API for OpenVerb Town
+// Chat API for OpenVerb Robot Actions
 // Allows users to chat with AI to execute robot tasks
 
 import {
