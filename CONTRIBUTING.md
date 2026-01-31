@@ -1,6 +1,6 @@
-# Contributing to OpenVerb Town
+# Contributing to OpenVerb Robot Actions
 
-First off, thank you for considering contributing to OpenVerb Town! It's people like you that make OpenVerb Town such a great tool.
+First off, thank you for considering contributing to OpenVerb Robot Actions! It's people like you that make OpenVerb Robot Actions such a great tool.
 
 ## How Can I Contribute?
 

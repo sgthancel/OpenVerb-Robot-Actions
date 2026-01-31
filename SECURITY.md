@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the latest version of OpenVerb Town is currently supported for security updates.
+Only the latest version of OpenVerb Robot Actions is currently supported for security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |

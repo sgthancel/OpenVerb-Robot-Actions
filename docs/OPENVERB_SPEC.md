@@ -1,6 +1,6 @@
 # OpenVerb Specification v1.0
 
-This document outlines the technical specifications of the OpenVerb framework as implemented in OpenVerb Town.
+This document outlines the technical specifications of the OpenVerb framework as implemented in OpenVerb Robot Actions.
 
 ## 1. Core Concepts
 

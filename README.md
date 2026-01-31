@@ -78,9 +78,8 @@ OpenVerb Town supports two primary piloting modes:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/openverb/openverb-town.git
-
-# Install dependencies
+git clone https://github.com/sgthancel/OpenVerb-Robot-Actions.git
+cd OpenVerb-Robot-Actions
 npm install
 
 # Run the development server
