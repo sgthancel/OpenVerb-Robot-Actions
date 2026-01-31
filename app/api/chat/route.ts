@@ -8,6 +8,7 @@ import {
   stepCountIs,
   UIMessage,
 } from "ai";
+import { cookies } from "next/headers";
 import {
   getWorldState,
   setWorldState,
@@ -246,7 +247,35 @@ const tools = {
 };
 
 export async function POST(req: Request) {
+  const cookieStore = await cookies();
   const { messages } = await req.json();
+
+  // 1. Input Validation
+  const lastMessage = messages[messages.length - 1];
+  if (lastMessage && lastMessage.content && lastMessage.content.length > 500) {
+    return new Response("Message too long (max 500 chars)", { status: 400 });
+  }
+
+  // 2. Rate Limiting (Throttle)
+  const lastRequest = cookieStore.get("last_chat_request");
+  const now = Date.now();
+  if (lastRequest) {
+    const lastTime = parseInt(lastRequest.value);
+    if (now - lastTime < 3000) { // 3 seconds
+      return new Response("Too many messages. Please wait a moment.", { status: 429 });
+    }
+  }
+
+  // 3. Usage Cap
+  const usage = cookieStore.get("chat_usage_count");
+  const count = usage ? parseInt(usage.value) : 0;
+  if (count >= 20) {
+    return new Response("Daily chat limit reached. Please fork to continue.", { status: 403 });
+  }
+
+  // Set Cookies
+  cookieStore.set("last_chat_request", now.toString(), { httpOnly: true, sameSite: "strict" });
+  cookieStore.set("chat_usage_count", (count + 1).toString(), { httpOnly: true, sameSite: "strict", maxAge: 86400 });
 
   const systemPrompt = `You are "OpenVerb AI", the mission controller. You are the robot's brain and strategist.
 
